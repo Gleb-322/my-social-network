@@ -6,3 +6,10 @@
 .content img {
     width: 80%;
 }
+.posts {
+    display: flex;
+}
+
+.item {
+    color: green;
+}

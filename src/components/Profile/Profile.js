@@ -1,10 +1,10 @@
 
 import React from "react"
-import './Content.css'
+import classes from './Profile.module.css'
 
-const Content = () => {
+const Profile = () => {
     return (
-        <div className='content'>
+        <div className={classes.content}>
             <img src='https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg' alt='main'/>
             <div>Ava + descr</div>
             <div>
@@ -12,11 +12,11 @@ const Content = () => {
                 <div>
                     New Post
                 </div>
-                <div>
-                    <div>
+                <div className={classes.posts}>
+                    <div className={classes.item}>
                         Post 1
                     </div>
-                    <div>
+                    <div className={classes.item}>
                         Post 2
                     </div>
                 </div>
@@ -25,4 +25,4 @@ const Content = () => {
         </div>
     )
 }
-export default Content
+export default Profile
