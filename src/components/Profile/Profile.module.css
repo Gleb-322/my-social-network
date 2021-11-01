@@ -1,15 +1,3 @@
-.content {
-    grid-area: Content;
-    background-color:darkred;
-}
-
-.content img {
+img {
     width: 80%;
-}
-.posts {
-    display: flex;
-}
-
-.item {
-    color: green;
 }
